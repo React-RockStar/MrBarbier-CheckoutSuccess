@@ -1,0 +1,266 @@
+body
+{
+    background-image: url('../photo/doodle_v5@2x.png');
+    background-size: cover;
+    height:100vh;
+    padding: 20px 30px;
+}
+
+.background-img
+{
+    background-color: #eeeeee;
+    padding:40px 20px;
+    overflow: hidden;
+    margin-bottom:30px;
+    margin:20px auto
+}
+@media(max-width:766px){   
+    .container .pictocoursbarbe .pict{
+        margin-top:30px;
+        font-size:16px
+    }  
+    
+}
+.margin-top{
+    margin-top:60px
+}
+.text-center
+{
+    text-align: center;
+}
+.container .start-header .header-h1 
+{
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #1d1d1b;
+}
+.container .start-header p
+{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1d1d1b;
+}  
+/*start all-card*/
+
+@media(max-width:766px){
+    .all-card .card
+    {
+        margin-left:50px;
+        display: block;display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:20px 30px;
+    }
+    .container .pictocoursbarbe .pict
+    {
+        display: inline-block;
+        margin:20px 50px
+    }
+}
+.all-card .card
+{
+    position: relative;
+    margin:10px 30px;
+    display: inline-block;
+}
+.all-card .card .div-img
+{
+    width: 112px;
+    height: 112px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding:10px;
+    overflow: hidden;
+}
+.all-card .card .div-img img
+{
+    border-radius: 50%;
+    padding:20px;
+    display: block;
+}
+.all-card .card .div-text
+{
+    margin-top:23px;
+}
+.all-card .card .div-text .Crme-de-rasage
+{
+    font-family:  'Cuprum', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #1d1d1b;
+    margin-bottom:0
+}
+.clearfix
+{
+    clear: both;
+}
+.all-card .card .div-text .Better-Shave-175mL
+{
+    text-transform: uppercase;
+    font-family:  'Cuprum', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #adadad;
+}
+.all-card .card .abs-one1
+{
+    width:28px;
+    height:28px;
+    position: absolute;
+    top:95px;
+    right:1px;
+    padding:8px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+
+.all-card .card .abs-two
+{
+    width:28px;
+    height:28px;
+    position: absolute;
+    top:95px;
+    left:1px;
+    padding:8px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+
+
+/*end all-card*/
+    
+
+.svgg
+{
+    margin-top:20px;
+
+}
+.svgg .illus-perso-livio-chariot
+{
+    width: 289px;
+    height: 97px;
+    object-fit: contain;
+    margin:40px 0;
+}
+
+
+.container .A-trs-vite-dans-vot
+{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.container .Lquipe-de-Monsieur
+{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #adadad;
+}
+.container .Lquipe-de-Monsieur h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.container .Lquipe-de-Monsieur .signature-monsieur-barbier-grey
+{
+    width: 180px;
+    height: 90px;
+}
+.container .Rectangle
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .Rectangle .texte
+{    
+    margin-top: 40px;
+    width: 157px;
+    height: 48px;
+    padding:5px;
+    border-radius: 26px;
+    background-color: #ffffff;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #38408f;
+    margin-bottom:40px
+}
+
+.container .Nhsitez-pas-pass
+{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    color: #1d1d1b;
+    margin-top: 40px;   
+}
+@media(max-width:700px){
+    .container .Nhsitez-pas-pass{
+        margin-left:-20px
+    }
+}
+.container .pictocoursbarbe .pict
+{
+    display: inline-block;
+    margin-right:60px
+}
+.container .pictocoursbarbe .pict img
+{
+    display: block;
+    width: 127px;
+    height: 127px;
+    margin-bottom:20px
+}
+.container .pictocoursbarbe .pict span
+{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #1d1d1b;
+}
